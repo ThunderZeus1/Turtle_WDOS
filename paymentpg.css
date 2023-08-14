@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/bcpay.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.box{
+    max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #707070;
+        border: 1px solid #000000;
+        border-radius: 50px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 100px;
+        width: 600px;
+        height: 600px;
+}
+.box h1{
+    margin-bottom: 20px;
+        text-align: center;
+        color: #ffffff;
+}
+.box h2{
+    display: block;
+        margin-bottom: 5px;
+        color: #000000;
+}
+p{
+    text-align: center;
+}
+input{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    outline: none;
+}
+.dropdown-list{
+    margin-left: 100px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 50px;
+    
+}
+.button3 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    font-size: 24px;
+    border: 2px solid #000000;
+    padding: 10px 50px;
+    border-radius: 50px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.button3 a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+}
+
+

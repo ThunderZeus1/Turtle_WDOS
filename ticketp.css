@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.top{
+    margin-bottom: 315px;
+    margin-left: 250px;
+    color: #ffff;
+    position: absolute;
+    bottom: 8%;
+    
+}
+
+.top h1{
+font-size: 190px;
+line-height: 160px;
+margin-left: -400px;
+color: transparent;
+-webkit-text-stroke: 1px #ffffff;
+background: url(Images/strips.png);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite;
+text-align: center;
+}
+@keyframes back{
+100%{
+    background-position: 2000px 0;
+}
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/topbc.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    
+}
+.calendar {
+    max-width: 400px;
+    border: 1px solid #787878;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #787878;
+    margin-left: 440px;  
+    border-radius: 80px;
+   
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: space-between;
+    background-color: #787878;
+    padding: 5px;
+}
+
+.weekdays div {
+    width: 14.28%; /* 100% / 7 days */
+    text-align: center;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.days div {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.days div:hover {
+    background-color: #f1f1f1;
+}
+
+.days .active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.days .booked {
+    background-color: #FF5722;
+    color: white;
+}
+
+.days .selected {
+    background-color: #2196F3;
+    color: white;
+}
+.top2{
+    margin-bottom: 315px;
+    margin-left: 250px;
+    color: #ffff;
+    position: absolute;
+    bottom: 8%;
+    
+}
+
+.top2 h1{
+font-size: 190px;
+line-height: 160px;
+margin-left: -400px;
+color: transparent;
+-webkit-text-stroke: 1px #ffffff;
+background: url(Images/strips.png);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite;
+text-align: center;
+}
+
+@keyframes back{
+100%{
+    background-position: 2000px 0;
+}
+}
+.box2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/movie2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+.booking-section{
+    border: 10px solid rgb(62, 59, 59);
+    background-color: rgb(102, 102, 102);
+    margin: 5px 50px 50px 50px;
+    padding: 10px 20px 10px 20px; 
+    text-align: center; 
+    border-radius: 100px;  
+    
+   
+}
+.booking-section button{
+    border-radius: 80px;
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 25px;
+    
+}
+
+.box3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/clocl.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    
+}
+.top3 h1 {
+    font-size: 190px;
+    line-height: 160px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+    background: url(Images/strips.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    text-align: center;
+    ;
+    }
+    
+    @keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+select {
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 485px;
+    border-radius: 50px;
+    width: 300px;
+    margin-top: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000000;
+    margin-top: 150px;
+    
+    
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: #777777;
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for table data cells */
+  td {
+    border: 1px solid #000000;
+    padding: 8px;
+  }
+  
+  /* Alternate row background color */
+  tbody tr:nth-child(even) {
+    background-color: #777777;
+  }
+
+.pritb h1{
+    font-size: 190px;
+    line-height: 160px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+    background: url(Images/strips.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    text-align: center;
+    margin-top:80px ;
+
+    
+    }
+    
+    @keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+
+}
+.pritb{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/blehwo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+
+    
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 25px;
+   
+    
+   
+   
+    
+    
+}
+.button2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    border: 2px solid #ffffff;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 12.5px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #545454;
+   
+}
+.button2  a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+
+}.Summarytb{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.3), transparent),url(./Images/jakajaka.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 0 8%;
+        position: relative;
+
+}
+.summary-box{
+    color: #ffff;
+    position: absolute;
+    bottom: 8%;
+    
+}
+.summary-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    color: transparent;
+    -webkit-text-stroke: 4px #ffff;
+    background: url(Images/strips.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    margin-bottom: 60px;
+    
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.summaryTable{
+    margin-bottom: 200px;
+    width: 500px;
+}
+    

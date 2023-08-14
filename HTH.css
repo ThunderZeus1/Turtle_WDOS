@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: poppins,sans-serif; */
+    font-family: 'titillium';
+   
+    
+}
+body{
+    background-image: url(./Images/bc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hd h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 70px; 
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 10px 20px 10px 20px;
+}
+
+.hd img{
+    width: 700px;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    margin-left: 400px;   
+}
+.bod p{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+}
+.loc iframe{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 50px 60px 70px 60px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 450px;
+}
+.ex{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 10px 20px 10px 20px;
+}
+.ex h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.ex ul{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.tucd{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 10px 10px 10px 10px;
+}
+.tucd h1{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.box{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 90%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    height: 60vh;
+}
+.box1{
+    background-image: url(./Images/whales.jpg);
+    
+
+}
+.box2{
+    background-image: url(./Images/divingg.jpg);
+
+}
+.box3{
+    background-image: url(./Images/surfing.jpeg);
+
+}
+.box4{
+    background-image: url(./Images/moonstone.jpg);
+
+}
+.box5{
+    background-image: url(./Images/boat.jpg);
+
+}
+.box6{
+    background-image: url(./Images/stilt.jpg);
+
+}
+.box1 h1{
+    text-align: center;
+    justify-content:center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50;
+
+
+}
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+}
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    border: 2px solid #ffffff;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.button a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:650px) {
+    .loc iframe{
+        border: 10px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        margin: 50px 60px 70px 60px;
+        padding: 20px 20px 20px 20px;
+        margin-left: 25px;
+        width: 600px;
+    }
+    .hd img{
+        width: 500px;
+        border: 10px solid rgb(0, 0, 0);
+        margin: 50px 60px 70px 60px;
+        padding: 20px 30px 20px 30px;
+        margin-left: 75px;   
+    }
+}

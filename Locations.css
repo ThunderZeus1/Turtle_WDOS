@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: poppins,sans-serif; */
+    font-family: 'titillium';
+    
+
+}
+
+body{
+    background-image: url(./Images/bsd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ORT{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    
+}
+.ORT h1{
+    font-family: 'Bruno Ace SC', cursive; 
+    font-size: 40px;
+    text-align: center;
+
+}
+.ORT img{
+    width: 650px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+
+}
+.GT{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    
+}
+.GT h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.GT img{
+    width: 650px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+.HT{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    
+}
+.HT h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.HT img{
+    width: 600px;
+    margin-left: 90px;
+    margin-top: 2px;
+
+}
+.LB{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    
+}
+.LB h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.LB img{
+    width: 650px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+
+}
+.LB iframe{
+    width: 600px;
+    height: 430px;
+}
+.LHT{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    
+}
+.LHT h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.LHT img{
+    width: 650px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+
+}
+.LHT iframe{
+    width: 600px;
+    height: 430px;
+}
+.Tb{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    margin-left: 350px;
+    
+
+}
+
+
+.Tb tr{
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.Tb{
+    border-spacing: 10px;
+}
+
+thead tr th,tfoot tr td{ 
+    padding: 10px 10px 10px 10px;
+}
+
+thead,.olive,.green,.leather,.logger,.hawk,tfoot{
+    transition: all 0.4s ease;
+}

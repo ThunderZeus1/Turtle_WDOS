@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(./Images/blah.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.logo{
+    width: 78px;
+    cursor: pointer;
+    padding-top: 17px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color:#ffff;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffff;
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 50%;}
+
+    .text-box{
+        color: #ffff;
+        position: absolute;
+        bottom: 8%;
+    }
+    .text-box h1{
+        font-size: 190px;
+        line-height: 160px;
+        margin-left: -10px;
+        color: transparent;
+        -webkit-text-stroke: 1px #ffff;
+        background: url(Images/strips.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+       
+    }
+    @keyframes back{
+        100%{
+            background-position: 2000px 0;
+        }
+    }
+    .bodyy{
+        width: 100%;
+        height: 310vh;
+        background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(./Images/damn.jpeg);
+        background-size: cover;
+        background-position: center;
+        padding: 0 8%;
+        position: absolute;
+        left: 0;
+        
+    }
+    .body1 p{
+        text-align: center;
+        font-size: 25px;
+        border: 10px solid rgb(74, 73, 73);
+        background-color: rgb(255, 132, 132);
+        margin: 14px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 50px;
+        
+    }
+    .body1 img{
+        width: 600px;
+        margin-left: 327px;
+        margin-top:30px;
+    }
+    .body2 h1{
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Mogra', cursive;
+       color: azure;
+    }
+    .body2 p{
+        text-align: center;
+        font-size: 25px;
+        border: 10px solid rgb(74, 73, 73);
+        background-color: rgb(255, 132, 132);
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 30px;
+        border-radius: 50px;
+
+    }
+    .body3 h1{
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Mogra', cursive;
+        color: azure;
+    }
+    .body3 img{
+        width: 400px;
+        margin-left: 440px;
+        margin-top: 30px;
+    }
+    .body3 p{
+        text-align: center;
+        font-size: 25px;
+        border: 10px solid rgb(74, 73, 73);
+        background-color: rgb(255, 132, 132);
+        margin: 10px q0px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 30px;
+        border-radius: 50px;
+    }
+    .body4 h1{
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Mogra', cursive;
+        color: azure;
+    }
+    .body4 p{
+        text-align: center;
+        font-size: 25px;
+        border: 5px solid rgb(74, 73, 73);
+        background-color: rgb(255, 132, 132);
+         margin: 20px 20px 20px 20px; 
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 2px;
+        border-radius: 50px;
+    }
+    .maps{
+    margin-left: 150px;
+    }
+    @media screen and (max-width:650px) {
+        .sec2{
+            width: 100%;
+            height: 230vh;
+            background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(./Images/bcdfg.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 0 8%;
+            position: relative;
+            
+        }
+        nav{
+
+            display: inline-block;
+            width: 100%;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 5px 0;
+            float: right;
+        }
+        .logo{
+            width: 78px;
+            cursor: pointer;
+            padding-top: 12px;
+            float: right;
+            margin-left: 90%;
+        }
+        nav ul{
+            flex: 1;
+            text-align: right;
+            padding-right: 18px;
+           
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 5px 10px;
+            display: inline-block;
+        }
+        nav ul li a{
+            color:#ffff;
+            text-decoration: none;
+            position: relative;
+            font-size: 18px;
+            background-color: rgb(255, 255, 255);
+            color: #000;
+            border-color: #000;
+            border-radius: 5px;
+            
+        }
+        nav ul li a::after{
+            content: '';
+            width: 0px;
+            height: 3px;
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ffff;
+            transition: width 0.3s;
+        }
+        nav ul li a:hover::after{
+            width: 50%;
+        }
+        .text-box h1{
+            font-size: 110px;
+            line-height: 160px;
+            margin-left: -10px;
+            color: transparent;
+            -webkit-text-stroke: 1px #ffff;
+            background: url(Images/strips.png);
+            -webkit-background-clip: text;
+            background-position: 0 0;
+            animation: back 20s linear infinite;
+            
+        }
+        .body1 img{
+            width: 400px;
+            margin-left: 50px;
+            margin-top:30px;
+        }
+        .body3 img{
+            width: 400px;
+            margin-left: 50px;
+            margin-top: 30px;
+    } 
+    .bodyy{
+        width: 100%;
+        height: 510vh;
+        background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(./Images/damn3.jpeg);
+        background-size: cover;
+        background-position: center;
+        padding: 0 8%;
+        position: absolute;
+        left: 0;
+        
+    }
+    .maps{
+        width: 10px;
+        margin-left: 25px;
+        }
+}

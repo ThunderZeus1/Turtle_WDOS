@@ -1,0 +1,174 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mainbox{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    height:100vh;
+    width: 100%;
+}
+
+.mainbox div{
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.box1{
+    background-image: url(./Images/SEC1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;
+}
+
+.box1 a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+}
+
+.box2{
+    background-image: url(./Images/SEC2.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 95%;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;;
+}
+
+.box2 a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.box3{
+    background-image: url(./Images/SEC4.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;;
+}
+
+.box3 a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h1{
+    align-items: center;
+    margin-top: 250px;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.box1 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.box2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box3 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box1 a:hover{
+    color: black;
+    background-color: white;
+}
+
+.box2 a:hover{
+    color: black;
+    background-color: white;
+}
+
+.box3 a:hover{
+    color: black;
+    background-color: white;
+}
+@media screen and (max-width:650px){
+
+    .mainbox{
+        display:flex;
+        align-content: center;
+        justify-content: center;
+        height:120vh;
+        width: 100%;
+    }
+    .box1{
+        background-image: url(./Images/SEC1.jpg);
+        background-size: cover;
+        background-position: center;
+        opacity: 90%;
+        text-align: center;
+        font-family: 'Dr Sugiyama', cursive;
+    }
+    .box2{
+        background-image: url(./Images/SEC2.jpg);
+        background-size: cover;
+        background-position: center;
+        opacity: 90%;
+        text-align: center;
+        font-family: 'Dr Sugiyama', cursive;;
+    }
+    .box3{
+        background-image: url(./Images/SEC4.jpg);
+        background-size: cover;
+        background-position: center;
+        opacity: 90%;
+        text-align: center;
+        font-family: 'Dr Sugiyama', cursive;;
+    }
+    .box2 a{
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        font-size: 24px;
+        border: 2px solid #fff;
+        padding: 10px 40px;
+        border-radius: 50px;
+        margin-top: 115px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+}

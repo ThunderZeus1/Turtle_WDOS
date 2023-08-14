@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ticketp.css">
+    <title>Event Calendar</title>
+    
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            <h1>Lets select a date</h1>
+        </div>
+        <pre>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        </pre>
+        <section>
+            <div class="bcdu">
+                <div class="calendar">
+                    <div class="header">
+                        <button id="prevBtn">&lt;</button>
+                        <h2 id="monthYear"></h2>
+                        <button id="nextBtn">&gt;</button>
+                    </div>
+                    <div class="weekdays">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+                    <div class="days" id="calendarDays" data-selected-date=""></div>
+                </div>
+            </div>
+            <script src="ticketp.js"></script>
+        </section>
+    </div>
+    
+        
+    </div>
+    
+
+  
+<div class="box3">
+<pre>
+
+
+
+
+</pre>
+    <div class="top3">
+        <pre>
+
+
+
+        </pre>
+        <h1>Select the time</h1>
+    </div>
+
+    <select id="timeSelector">
+        <option value="">Select a time</option>
+        <!-- Populate options dynamically with JavaScript -->
+       <option value="9AM - 10AM">9AM to 10AM(Peak)</option>
+       <option value="10AM - 11PM">10AM to 11PM</option>
+       <option value="11PM - 12PM">11PM to 12PM</option>
+       <option value="12PM - 1PM">12PM to 1PM</option>
+       <option value="1PM - 2PM">1PM to 2PM</option>
+       <option value="2PM - 3PM">2PM to 3PM</option>
+       <option value="3PM - 4PM">3PM to 4PM</option>
+       <option value="4PM - 5PM">4PM to 5PM</option>
+       <option value="5PM - 6PM">5PM to 6PM(Peak)</option>
+
+    </select>
+
+
+
+    
+</div>
+    <div class="pritb">
+        <pre>
+
+
+            
+        </pre>
+        
+        <h1>Prize Table</h1>
+        
+    <table id="Prize-table">
+        <thead>
+            <tr>
+                <th>Ticket Type</th>
+                <th>Normal hour Prize</th>
+                <th>Peak hour prize</th>
+                
+            </tr>
+            <tr>
+                <th>Foreign Adult</th>
+                <th>10 US</th>
+                <th>13 US</th>
+            </tr>
+            <tr>
+                <th>SL Adult</th>
+                <th>4 US</th>
+                <th>6 US</th>
+            </tr>
+            <tr>
+                <th>Foreign child</th>
+                <th>5 US</th>
+                <th>8 US</th>
+            </tr>
+            <tr>
+                <th>SL child</th>
+                <th>2 US</th>
+                <th>3 US</th>
+            </tr>
+            <tr>
+                <th>Infant</th>
+                <th>Free</th>
+                <th>Free</th>
+            </tr>
+        </thead>
+
+        
+    </table>
+    
+
+    </div>
+    <div class="box2">
+        <div class="top2">
+            <h1>Lets select tickets</h1>
+        </div>
+    
+        <pre>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+        </pre>
+        <div class="booking-section">
+            <label for="sl-adult">SL adult:</label>
+            <input type="number" id="sl-adult" min="0" value="0">
+            <pre>
+            </pre>
+            <label for="sl-child">SL child:</label>
+            <input type="number" id="sl-child" min="0" value="0">
+            <pre>
+            </pre>
+            <label for="foreign-adult">Foreign adult:</label>
+            <input type="number" id="foreign-adult" min="0" value="0">
+            <pre>
+            </pre>
+            <label for="foreign-child">Foreign child:</label>
+            <input type="number" id="foreign-child" min="0" value="0">
+            <pre>
+            </pre>
+            <label for="infant">Infant:</label>
+            <input type="number" id="infant" min="0" value="0">
+            <pre>
+            </pre>
+            <button onclick="bookTickets()">Book Tickets</button>
+        </div>
+       
+    
+    </div>
+    <div class="Summarytb">
+        <div class="summary-box">
+            <h1>Summary</h1>
+            <!-- Add this within the "box" div or any other appropriate location -->
+            <div id="selectedDate">
+                Selected Date: <span id="selectedDateLocal"></span>
+            </div>
+            
+
+        
+        <pre>
+            
+        </pre>
+
+            <div id="selectedTimeContainer">
+                Selected Time: <span id="selectedTime"></span>
+            </div>
+            
+            <table id="summaryTable">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Summary rows will be added here dynamically using JavaScript -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total:</td>
+                        <td id="totalPrice">0 US</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+            
+
+    </div>
+    <div class="button2">
+        <a href="person.html">Continue</a>
+        <pre>
+            
+        </pre>
+     
+      </div>
+      
+    
+</body>
+</html>

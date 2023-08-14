@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="person.css">
+    
+</head>
+<body>
+    <div class="mainscreen">
+        
+        <div class="card">
+          <div class="leftside">
+            <div class="cover-page">
+    
+            </div>
+            <div class="main-content">
+              <div id="details-form">
+                <h2>Enter your details</h2>
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" required onchange="fulname()">
+    
+                <label for="mobile-number">Mobile Number *</label>
+                <div class="custom-dropdown">
+                  <input type="text" id="country-code" required readonly>
+                  <ul class="dropdown-list">
+                    
+                  </ul>
+                </div>
+                <input type="tel" id="mobile-number" required onchange="phone()">
+    
+                <label for="email">Email *</label>
+                <input type="email" id="email" required onchange="email()">
+    
+                <label for="confirm-email">Confirm Email *</label>
+                <input type="email" id="confirm-email" required>
+                <span id="email-error-message" class="error-message"></span>
+    
+                <label for="gender">Gender</label>
+                <select id="gender" onchange="gender()">
+                  <option value="">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+                <span id="gender-error-message" class="error-message"></span>
+    
+                <button>
+                  <a href="paymentpg.html">Continue with purchase</a>
+                </button>
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="person.js"></script>
+</body>
+</html>

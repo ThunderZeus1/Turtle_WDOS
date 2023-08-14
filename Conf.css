@@ -1,0 +1,117 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/whatss.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header {
+    background-color: #5a5a5a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cover-photo img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.main-content {
+    max-width: 760px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.confirmation-container {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 150px;
+}
+
+.confirmation-container h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.order-summary {
+    margin-top: 20px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summary-label {
+    color: #777;
+    font-weight: bold;
+}
+
+.summary-value {
+    font-weight: bold;
+}
+
+.note {
+    color: #555;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.thank-you {
+    font-size: 18px;
+    color: #007BFF;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.thank-you:hover {
+    color: #0056b3;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+}
+
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    font-size: 24px;
+    border: 2px solid #000000;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+}

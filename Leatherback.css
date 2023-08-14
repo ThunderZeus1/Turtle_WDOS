@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: poppins,sans-serif; */
+    font-family: 'titillium';
+    
+}
+body{
+    background-image: url(./Images/bgs.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.bd{
+    border: 10px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 50px 60px 70px 60px;
+    padding: 20px 30px 20px 30px;
+    
+}
+.head h1{
+    font-size: 90px;
+    line-height: 90px;
+    text-align: center;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-family:'Bebas Neue', sans-serif;
+}
+.head img{
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.bd h2{
+    font-family: 'Bruno Ace', cursive;
+    margin-left: 10px;
+    
+}
+.bd p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.bd div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.bd div a{
+    text-decoration: none;
+    display: inline-block;
+    color: #1d00fc;
+    font-size: 24px;
+    border: 2px solid #1d00fc;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.bd div a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+}
+@media screen and (max-width:650px) {
+    .head img{
+        width: 500px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mainbox{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    height:100vh;
+    width: 100%;
+}
+.mainbox div{
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.box1{
+    background-image: url(./Images/lip.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;
+}
+
+.box1 a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+    
+}
+
+.box2{
+    background-image: url(./Images/ipl.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 95%;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;
+}
+
+.box2 a:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+}
+.box1 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  
+}
+
+.box2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    
+}
+
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
